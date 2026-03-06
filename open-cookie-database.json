@@ -1,17 +1,4 @@
 {
-    "": [
-        {
-            "id": "86531df2-94a9-43e0-9262-856c57f16160",
-            "category": "Security",
-            "cookie": "XSRF-TOKEN",
-            "domain": "",
-            "description": "This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks.",
-            "retentionPeriod": "Session",
-            "dataController": "",
-            "privacyLink": "",
-            "wildcardMatch": "0"
-        }
-    ],
     "1rx.io": [
         {
             "id": "3a267085-9f06-436b-ae64-d42a63c19b3b",
@@ -146,17 +133,6 @@
         }
     ],
     "Acuity": [
-        {
-            "id": "4e008437-462d-44d0-b494-a1e77608daca",
-            "category": "Marketing",
-            "cookie": "auid",
-            "domain": ".acuityplatform.com",
-            "description": "This cooki holds the promotional content ID of the User on mobile devices. Used for tracking user actions, such as pages visited and clicks on recommendations, and personalized promotional contente",
-            "retentionPeriod": "1 year",
-            "dataController": "Acuity",
-            "privacyLink": "",
-            "wildcardMatch": "0"
-        },
         {
             "id": "bf7f06d4-d001-4ba0-9ece-a1a7afd8c23c",
             "category": "Marketing",
@@ -458,17 +434,6 @@
             "domain": "adform.net (3rd party)",
             "description": "Checks if a new partner cookie synchronization is required (cookie set during cookie synchronization )",
             "retentionPeriod": "1 day",
-            "dataController": "Adform",
-            "privacyLink": "https://site.adform.com/privacy-center/overview",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "256c5196-d881-11e9-8a34-2a2ae2dbcce4",
-            "category": "Marketing",
-            "cookie": "token",
-            "domain": "adform.net (3rd party)",
-            "description": "Security token for opt out functionality",
-            "retentionPeriod": "End of session (browser)",
             "dataController": "Adform",
             "privacyLink": "https://site.adform.com/privacy-center/overview",
             "wildcardMatch": "0"
@@ -785,17 +750,6 @@
             "domain": "admatic.com.tr (3rd party)",
             "description": "Used to identify the visitor across visits and devices. This allows the website to present the visitor with relevant advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.",
             "retentionPeriod": "5 days",
-            "dataController": "Admatic",
-            "privacyLink": "http://www.admatic.com.tr/en/privacy-policy.html",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "c92f9463-6c9d-4aa3-a14e-d0eee6e03089",
-            "category": "Marketing",
-            "cookie": "uids",
-            "domain": "admatic.com.tr (3rd party)",
-            "description": "Registers user behaviour and navigation on the website, and any interaction with active campaigns. This is used for optimizing advertisement and for efficient retargeting.",
-            "retentionPeriod": "3 months",
             "dataController": "Admatic",
             "privacyLink": "http://www.admatic.com.tr/en/privacy-policy.html",
             "wildcardMatch": "0"
@@ -2675,19 +2629,6 @@
             "wildcardMatch": "0"
         }
     ],
-    "BetweenDigital": [
-        {
-            "id": "541bdd26-eddf-4f5b-ac6a-1effd709362b",
-            "category": "Marketing",
-            "cookie": "dc",
-            "domain": "betweendigital.com",
-            "description": "This cookie is used for sync with Google services",
-            "retentionPeriod": "10 years",
-            "dataController": "BetweenDigital",
-            "privacyLink": "",
-            "wildcardMatch": "0"
-        }
-    ],
     "betweendigital.com": [
         {
             "id": "452ba8c5-b674-4910-803a-46d1461f75ca",
@@ -3440,19 +3381,6 @@
             "retentionPeriod": "179 days",
             "dataController": "Oracle",
             "privacyLink": "https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html",
-            "wildcardMatch": "0"
-        }
-    ],
-    "Bombora": [
-        {
-            "id": "a1031b6e-685a-428b-b68a-b2f0911d770b",
-            "category": "Marketing",
-            "cookie": "tp",
-            "domain": ".ml314.com",
-            "description": "This cookie is used for deliver ads, using synchronous id for DSP",
-            "retentionPeriod": "14 days",
-            "dataController": "Bombora",
-            "privacyLink": "https://bombora.com/privacy-philosophy/",
             "wildcardMatch": "0"
         }
     ],
@@ -6838,6 +6766,50 @@
             "dataController": "RTB House",
             "privacyLink": "https://rtbhouse.com/privacy-center",
             "wildcardMatch": "0"
+        },
+        {
+            "id": "e25aead6-0189-442e-ac9a-0d26d69c3f55",
+            "category": "Marketing",
+            "cookie": "c",
+            "domain": "rubiconproject.com",
+            "description": "Regulates the synchronization of user identification and the exchange of your data between various promotional content services.",
+            "retentionPeriod": "1 month",
+            "dataController": "Magnite",
+            "privacyLink": "https://www.magnite.com/legal/platform-cookie-statement/",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "b6449029-8677-4810-889f-9485c0dae9ab",
+            "category": "Functional",
+            "cookie": "ts",
+            "domain": "paypal.com",
+            "description": "This cookie is associated with creativecdn.com. It is provided by PayPal and facilitates payment services in the website.",
+            "retentionPeriod": "3 years",
+            "dataController": "PayPal",
+            "privacyLink": "https://www.paypal.com/privacy-center",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "67999a45-2f58-4064-8b57-ea0f249c937a",
+            "category": "Marketing",
+            "cookie": "u",
+            "domain": ".t.tailtarget.com",
+            "description": "This cookie is associated with creativecdn.com. It collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Perfect Privacy LLC.",
+            "retentionPeriod": "1 year",
+            "dataController": "Totvs",
+            "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "99d4316b-2cc6-46ea-866c-f0b294f4801d",
+            "category": "Marketing",
+            "cookie": "u",
+            "domain": "t.tailtarget.com",
+            "description": "This cookie is associated with creativecdn.com. It collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Perfect Privacy LLC.",
+            "retentionPeriod": "1 year",
+            "dataController": "Totvs",
+            "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
+            "wildcardMatch": "0"
         }
     ],
     "Criteo": [
@@ -7035,17 +7007,6 @@
             "cookie": "didomi_token",
             "domain": "",
             "description": "This cookie contains consent information for personalized purposes and for personalized partners, as well as information specific to Didomi (e.g. user ID).",
-            "retentionPeriod": "1 year",
-            "dataController": "Didomi",
-            "privacyLink": "https://privacy.console.didomi.io/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "3f10ddbd-56c6-4179-bd46-540c188b56c2",
-            "category": "Functional",
-            "cookie": "euconsent-v2",
-            "domain": "",
-            "description": "This cookie saves the TC string.",
             "retentionPeriod": "1 year",
             "dataController": "Didomi",
             "privacyLink": "https://privacy.console.didomi.io/",
@@ -7435,6 +7396,17 @@
             "domain": "doubleclick.net",
             "description": "This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite",
             "retentionPeriod": "6 months",
+            "dataController": "Google",
+            "privacyLink": "https://business.safety.google/privacy/",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "ddf78359-a760-4c18-a9b7-790544dc8a3c",
+            "category": "Marketing",
+            "cookie": "DSID",
+            "domain": "",
+            "description": "Identifies signed-in users on non-Google sites to respect ad personalization settings",
+            "retentionPeriod": "2 weeks",
             "dataController": "Google",
             "privacyLink": "https://business.safety.google/privacy/",
             "wildcardMatch": "0"
@@ -7992,6 +7964,17 @@
             "retentionPeriod": "1 year",
             "dataController": "Emetric",
             "privacyLink": "https://www.emetriq.com/datenschutz/",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "72ccbe92-6c9b-4441-8b3e-2ec84120b80d",
+            "category": "Marketing",
+            "cookie": "pid",
+            "domain": ".smartadserver.com",
+            "description": "This cookie is used by Xplosion/emetriq. Used to analyze the behavior of visitors to the website and derive settings. These allow for interest-based promotional content on third party websites.",
+            "retentionPeriod": "13 months",
+            "dataController": "Equativ.com",
+            "privacyLink": "https://equativ.com/end-users-privacy-policy/",
             "wildcardMatch": "0"
         }
     ],
@@ -9470,17 +9453,6 @@
             "cookie": "AdID",
             "domain": "",
             "description": "Show Google ads on non-Google sites and personalize ads based on user settings",
-            "retentionPeriod": "2 weeks",
-            "dataController": "Google",
-            "privacyLink": "https://business.safety.google/privacy/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "ddf78359-a760-4c18-a9b7-790544dc8a3c",
-            "category": "Marketing",
-            "cookie": "DSID",
-            "domain": "",
-            "description": "Identifies signed-in users on non-Google sites to respect ad personalization settings",
             "retentionPeriod": "2 weeks",
             "dataController": "Google",
             "privacyLink": "https://business.safety.google/privacy/",
@@ -13879,19 +13851,6 @@
             "wildcardMatch": "0"
         }
     ],
-    "LiveRamp": [
-        {
-            "id": "f2856634-3da6-4b8d-a671-d057c0964724",
-            "category": "Marketing",
-            "cookie": "euconsent",
-            "domain": "faktor.io",
-            "description": "Cookie compliance check",
-            "retentionPeriod": "1 year",
-            "dataController": "LiveRamp",
-            "privacyLink": "https://liveramp.com/privacy/",
-            "wildcardMatch": "0"
-        }
-    ],
     "LiveZilla GmbH": [
         {
             "id": "4951c825-94b4-404e-bffd-1981fb6a8d5c",
@@ -14509,17 +14468,6 @@
             "wildcardMatch": "0"
         },
         {
-            "id": "e25aead6-0189-442e-ac9a-0d26d69c3f55",
-            "category": "Marketing",
-            "cookie": "c",
-            "domain": "rubiconproject.com",
-            "description": "Regulates the synchronization of user identification and the exchange of your data between various promotional content services.",
-            "retentionPeriod": "1 month",
-            "dataController": "Magnite",
-            "privacyLink": "https://www.magnite.com/legal/platform-cookie-statement/",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "15651995-d252-4161-9561-2669150d2c85",
             "category": "Marketing",
             "cookie": "khaos_p",
@@ -14721,6 +14669,17 @@
             "retentionPeriod": "180 days",
             "dataController": "Marfeel",
             "privacyLink": "https://community.marfeel.com/t/marfeel-com-privacy-policy/10383",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "8ed5c4ec-4aa5-4853-b7a4-72c54c14e0a4",
+            "category": "Analytics",
+            "cookie": "_s",
+            "domain": "shopify.com",
+            "description": "This cookie is used to save for temporary visit session",
+            "retentionPeriod": "2 years",
+            "dataController": "Shopify.com",
+            "privacyLink": "https://www.shopify.com/legal/cookies",
             "wildcardMatch": "0"
         }
     ],
@@ -15133,6 +15092,17 @@
             "retentionPeriod": "1 hour",
             "dataController": "Mediarithmics",
             "privacyLink": "https://developer.mediarithmics.io/advanced-usages/data-privacy-compliance/cookies",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "6c439033-bc86-4148-b105-30a979fc0ec2",
+            "category": "Functional",
+            "cookie": "chk",
+            "domain": "pubmatic.com",
+            "description": "This cookie is added by mediarithmics In the case of a call on events.mediarithmics.com without a cookie mics_vid, this cookie is written to check that the user browser facilitates third party cookies. It contains a randomly generated UUID.",
+            "retentionPeriod": "3 months",
+            "dataController": "Pubmatic",
+            "privacyLink": "https://pubmatic.com/legal/privacy/",
             "wildcardMatch": "0"
         }
     ],
@@ -17501,6 +17471,17 @@
     ],
     "Outbrain": [
         {
+            "id": "4e008437-462d-44d0-b494-a1e77608daca",
+            "category": "Marketing",
+            "cookie": "auid",
+            "domain": ".acuityplatform.com",
+            "description": "This cooki holds the promotional content ID of the User on mobile devices. Used for tracking user actions, such as pages visited and clicks on recommendations, and personalized promotional contente",
+            "retentionPeriod": "1 year",
+            "dataController": "Acuity",
+            "privacyLink": "",
+            "wildcardMatch": "0"
+        },
+        {
             "id": "694c598d-0740-468e-80da-6b48423fc2cc",
             "category": "Marketing",
             "cookie": "cookieJartestCookie",
@@ -17801,17 +17782,6 @@
             "domain": "paypal.com",
             "description": "This cookie is provided by PayPal and supports payment services in the website.",
             "retentionPeriod": "session",
-            "dataController": "PayPal",
-            "privacyLink": "https://www.paypal.com/privacy-center",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "b6449029-8677-4810-889f-9485c0dae9ab",
-            "category": "Functional",
-            "cookie": "ts",
-            "domain": "paypal.com",
-            "description": "This cookie is associated with creativecdn.com. It is provided by PayPal and facilitates payment services in the website.",
-            "retentionPeriod": "3 years",
             "dataController": "PayPal",
             "privacyLink": "https://www.paypal.com/privacy-center",
             "wildcardMatch": "0"
@@ -19456,6 +19426,17 @@
     ],
     "PrivacyPillar": [
         {
+            "id": "3f10ddbd-56c6-4179-bd46-540c188b56c2",
+            "category": "Functional",
+            "cookie": "euconsent-v2",
+            "domain": "",
+            "description": "This cookie saves the TC string.",
+            "retentionPeriod": "1 year",
+            "dataController": "Didomi",
+            "privacyLink": "https://privacy.console.didomi.io/",
+            "wildcardMatch": "0"
+        },
+        {
             "id": "76924a7a-e6ed-4eaf-85c6-4bf0f85791eb",
             "category": "Functional",
             "cookie": "privacypillar-google-consent",
@@ -19498,6 +19479,17 @@
             "dataController": "PrivacyPillar",
             "privacyLink": "https://privacypillar.com/privacy-policy/",
             "wildcardMatch": "0"
+        },
+        {
+            "id": "8c1b2268-85b3-4457-9146-89b43c566cf4",
+            "category": "Functional",
+            "cookie": "usprivacy",
+            "domain": "",
+            "description": "This cookie saves the US privacy string.",
+            "retentionPeriod": "session",
+            "dataController": "ShareThis",
+            "privacyLink": "https://sharethis.com/privacy/",
+            "wildcardMatch": "1"
         }
     ],
     "Processwire": [
@@ -19842,17 +19834,6 @@
             "domain": "pubmatic.com",
             "description": "This cookie is set for Komli ad server and is used for default impression when other data is not available.",
             "retentionPeriod": "1 day",
-            "dataController": "Pubmatic",
-            "privacyLink": "https://pubmatic.com/legal/privacy/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "6c439033-bc86-4148-b105-30a979fc0ec2",
-            "category": "Functional",
-            "cookie": "chk",
-            "domain": "pubmatic.com",
-            "description": "This cookie is added by mediarithmics In the case of a call on events.mediarithmics.com without a cookie mics_vid, this cookie is written to check that the user browser facilitates third party cookies. It contains a randomly generated UUID.",
-            "retentionPeriod": "3 months",
             "dataController": "Pubmatic",
             "privacyLink": "https://pubmatic.com/legal/privacy/",
             "wildcardMatch": "0"
@@ -22162,6 +22143,17 @@
     ],
     "ShareThis": [
         {
+            "id": "f2856634-3da6-4b8d-a671-d057c0964724",
+            "category": "Marketing",
+            "cookie": "euconsent",
+            "domain": "faktor.io",
+            "description": "Cookie compliance check",
+            "retentionPeriod": "1 year",
+            "dataController": "LiveRamp",
+            "privacyLink": "https://liveramp.com/privacy/",
+            "wildcardMatch": "0"
+        },
+        {
             "id": "cc651252-ffba-11e9-8d71-362b9e155667",
             "category": "Analytics",
             "cookie": "__stid",
@@ -22234,17 +22226,6 @@
             "domain": "sharethis.com",
             "description": "ShareThis Tag Management System cookie to track status of pixel rotation loading. ShareThis uses a different cookie for different groups of sites within the ShareThis network.",
             "retentionPeriod": "1 year",
-            "dataController": "ShareThis",
-            "privacyLink": "https://sharethis.com/privacy/",
-            "wildcardMatch": "1"
-        },
-        {
-            "id": "8c1b2268-85b3-4457-9146-89b43c566cf4",
-            "category": "Functional",
-            "cookie": "usprivacy",
-            "domain": "",
-            "description": "This cookie saves the US privacy string.",
-            "retentionPeriod": "session",
             "dataController": "ShareThis",
             "privacyLink": "https://sharethis.com/privacy/",
             "wildcardMatch": "1"
@@ -22494,17 +22475,6 @@
             "cookie": "_orig_referrer",
             "domain": "shopify.com",
             "description": "Track landing pages.",
-            "retentionPeriod": "2 years",
-            "dataController": "Shopify.com",
-            "privacyLink": "https://www.shopify.com/legal/cookies",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "8ed5c4ec-4aa5-4853-b7a4-72c54c14e0a4",
-            "category": "Analytics",
-            "cookie": "_s",
-            "domain": "shopify.com",
-            "description": "This cookie is used to save for temporary visit session",
             "retentionPeriod": "2 years",
             "dataController": "Shopify.com",
             "privacyLink": "https://www.shopify.com/legal/cookies",
@@ -23516,17 +23486,6 @@
             "cookie": "TestIfCookieP",
             "domain": "smartadserver.com",
             "description": "Technical cookie used to test if persistent cookies are accepted",
-            "retentionPeriod": "13 months",
-            "dataController": "Equativ.com",
-            "privacyLink": "https://equativ.com/end-users-privacy-policy/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "72ccbe92-6c9b-4441-8b3e-2ec84120b80d",
-            "category": "Marketing",
-            "cookie": "pid",
-            "domain": ".smartadserver.com",
-            "description": "This cookie is used by Xplosion/emetriq. Used to analyze the behavior of visitors to the website and derive settings. These allow for interest-based promotional content on third party websites.",
             "retentionPeriod": "13 months",
             "dataController": "Equativ.com",
             "privacyLink": "https://equativ.com/end-users-privacy-policy/",
@@ -24800,6 +24759,28 @@
     ],
     "Tailtarget": [
         {
+            "id": "541bdd26-eddf-4f5b-ac6a-1effd709362b",
+            "category": "Marketing",
+            "cookie": "dc",
+            "domain": "betweendigital.com",
+            "description": "This cookie is used for sync with Google services",
+            "retentionPeriod": "10 years",
+            "dataController": "BetweenDigital",
+            "privacyLink": "",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "a1031b6e-685a-428b-b68a-b2f0911d770b",
+            "category": "Marketing",
+            "cookie": "tp",
+            "domain": ".ml314.com",
+            "description": "This cookie is used for deliver ads, using synchronous id for DSP",
+            "retentionPeriod": "14 days",
+            "dataController": "Bombora",
+            "privacyLink": "https://bombora.com/privacy-philosophy/",
+            "wildcardMatch": "0"
+        },
+        {
             "id": "ff6bda2f-98b3-4cc5-a4f6-712af4a838f5",
             "category": "Marketing",
             "cookie": "ttbprf",
@@ -24839,17 +24820,6 @@
             "domain": ".t.tailtarget.com",
             "description": "This cookie is used for user segmentation with timestamp from the latest access",
             "retentionPeriod": "1 month",
-            "dataController": "Totvs",
-            "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "67999a45-2f58-4064-8b57-ea0f249c937a",
-            "category": "Marketing",
-            "cookie": "u",
-            "domain": ".t.tailtarget.com",
-            "description": "This cookie is associated with creativecdn.com. It collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Perfect Privacy LLC.",
-            "retentionPeriod": "1 year",
             "dataController": "Totvs",
             "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
             "wildcardMatch": "0"
@@ -24916,6 +24886,17 @@
             "domain": ".t.tailtarget.com",
             "description": "This cookie is used for indicate user access to the same site",
             "retentionPeriod": "2 days",
+            "dataController": "Totvs",
+            "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "26f5fa63-e422-4027-9d4e-e6e6f54c5a60",
+            "category": "Marketing",
+            "cookie": "_ssc",
+            "domain": "t.tailtarget.com",
+            "description": "This cookie is used for indicate user access to the same site",
+            "retentionPeriod": "1 day",
             "dataController": "Totvs",
             "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
             "wildcardMatch": "0"
@@ -25392,30 +25373,6 @@
             "wildcardMatch": "0"
         }
     ],
-    "Totvs": [
-        {
-            "id": "99d4316b-2cc6-46ea-866c-f0b294f4801d",
-            "category": "Marketing",
-            "cookie": "u",
-            "domain": "t.tailtarget.com",
-            "description": "This cookie is associated with creativecdn.com. It collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Perfect Privacy LLC.",
-            "retentionPeriod": "1 year",
-            "dataController": "Totvs",
-            "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "26f5fa63-e422-4027-9d4e-e6e6f54c5a60",
-            "category": "Marketing",
-            "cookie": "_ssc",
-            "domain": "t.tailtarget.com",
-            "description": "This cookie is used for indicate user access to the same site",
-            "retentionPeriod": "1 day",
-            "dataController": "Totvs",
-            "privacyLink": "https://www.totvs.com/protecao-e-privacidade-de-dados/",
-            "wildcardMatch": "0"
-        }
-    ],
     "Tripadvisor": [
         {
             "id": "ad423db0-3408-40c8-a36e-caadfe3c3b23",
@@ -25503,17 +25460,6 @@
             "domain": "3lift.com",
             "description": "This cookie is used to identify the visitor and optimize ad-relevance by collecting visitor data from multiple websites with – this exchange of visitor data is normally provided by a third-party data-center or ad-exchange.",
             "retentionPeriod": "3 months",
-            "dataController": "TripleLift",
-            "privacyLink": "https://triplelift.com/advertising-technology-platform-cookie-notice/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "717e0bb0-cda0-4e49-8418-12af4e3ae8cf",
-            "category": "Marketing",
-            "cookie": "optout",
-            "domain": "3lift.com",
-            "description": "This cookie is used to determine whether the visitor has accepted the cookie consent box.",
-            "retentionPeriod": "5 years",
             "dataController": "TripleLift",
             "privacyLink": "https://triplelift.com/advertising-technology-platform-cookie-notice/",
             "wildcardMatch": "0"
@@ -25965,6 +25911,17 @@
         }
     ],
     "Unknown": [
+        {
+            "id": "86531df2-94a9-43e0-9262-856c57f16160",
+            "category": "Security",
+            "cookie": "XSRF-TOKEN",
+            "domain": "",
+            "description": "This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks.",
+            "retentionPeriod": "Session",
+            "dataController": "",
+            "privacyLink": "",
+            "wildcardMatch": "0"
+        },
         {
             "id": "61c48271-1719-4bab-a18e-1ad196d05519",
             "category": "Marketing",
@@ -40366,6 +40323,28 @@
     ],
     "Xandr": [
         {
+            "id": "256c5196-d881-11e9-8a34-2a2ae2dbcce4",
+            "category": "Marketing",
+            "cookie": "token",
+            "domain": "adform.net (3rd party)",
+            "description": "Security token for opt out functionality",
+            "retentionPeriod": "End of session (browser)",
+            "dataController": "Adform",
+            "privacyLink": "https://site.adform.com/privacy-center/overview",
+            "wildcardMatch": "0"
+        },
+        {
+            "id": "c92f9463-6c9d-4aa3-a14e-d0eee6e03089",
+            "category": "Marketing",
+            "cookie": "uids",
+            "domain": "admatic.com.tr (3rd party)",
+            "description": "Registers user behaviour and navigation on the website, and any interaction with active campaigns. This is used for optimizing advertisement and for efficient retargeting.",
+            "retentionPeriod": "3 months",
+            "dataController": "Admatic",
+            "privacyLink": "http://www.admatic.com.tr/en/privacy-policy.html",
+            "wildcardMatch": "0"
+        },
+        {
             "id": "efc813d6-20fa-4d23-9bd0-e2679bc78ea8",
             "category": "Marketing",
             "cookie": "anj",
@@ -40644,6 +40623,17 @@
         }
     ],
     "Yahoo": [
+        {
+            "id": "717e0bb0-cda0-4e49-8418-12af4e3ae8cf",
+            "category": "Marketing",
+            "cookie": "optout",
+            "domain": "3lift.com",
+            "description": "This cookie is used to determine whether the visitor has accepted the cookie consent box.",
+            "retentionPeriod": "5 years",
+            "dataController": "TripleLift",
+            "privacyLink": "https://triplelift.com/advertising-technology-platform-cookie-notice/",
+            "wildcardMatch": "0"
+        },
         {
             "id": "f55ad4e8-3628-4673-bbb0-d1ade3ffd763",
             "category": "Marketing",
