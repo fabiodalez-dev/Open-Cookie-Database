@@ -14667,17 +14667,6 @@
             "wildcardMatch": "0"
         },
         {
-            "id": "1842a174-010a-43ad-b4af-b28c07cdeafb",
-            "category": "Marketing",
-            "cookie": "UID",
-            "domain": ".scorecardresearch.com",
-            "description": "Collects information of the user and his/her movement, such as timestamp for visits, most recently loaded pages and IP address. The data is used by the marketing research network, Scorecard Research, to analyse traffic patterns and carry out surveys to help their clients better understand the customer's preferences.",
-            "retentionPeriod": "2 years",
-            "dataController": "ComScore",
-            "privacyLink": "https://www.comscore.com/About/Privacy-Policy",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "4e6c97e1-d42b-42ec-a37f-1979a5da04c3",
             "category": "Marketing",
             "cookie": "PID",
@@ -15893,17 +15882,6 @@
             "wildcardMatch": "0"
         },
         {
-            "id": "946819fc-a397-4bcd-bdab-02c28fd4881c",
-            "category": "Analytics",
-            "cookie": "ce_need_secure_cookie\t",
-            "domain": "",
-            "description": "This cookie is used to determine cookie protection parameters.",
-            "retentionPeriod": "1 second",
-            "dataController": "Crazy Egg",
-            "privacyLink": "https://www.crazyegg.com/cookies",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "f5996189-c53a-46b8-9936-595fdf3fc959",
             "category": "Analytics",
             "cookie": "ce_successful_csp_check",
@@ -16280,17 +16258,6 @@
     ],
     "CreativeCDN": [
         {
-            "id": "c3c96be1-5140-4eda-a602-46922d29a0a6",
-            "category": "Marketing",
-            "cookie": "c",
-            "domain": "creativecdn.com",
-            "description": "Regulates the synchronization of user identification and the exchange of your data between various promotional content services.",
-            "retentionPeriod": "364 days",
-            "dataController": "RTB House",
-            "privacyLink": "https://rtbhouse.com/privacy-center",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "4d78a605-8c8c-45b7-b634-e302f2de71b9",
             "category": "Marketing",
             "cookie": "g",
@@ -16321,17 +16288,6 @@
             "retentionPeriod": "365 days",
             "dataController": "RTB House",
             "privacyLink": "https://rtbhouse.com/privacy-center",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "e25aead6-0189-442e-ac9a-0d26d69c3f55",
-            "category": "Marketing",
-            "cookie": "c",
-            "domain": "rubiconproject.com",
-            "description": "Regulates the synchronization of user identification and the exchange of your data between various promotional content services.",
-            "retentionPeriod": "1 month",
-            "dataController": "Magnite",
-            "privacyLink": "https://www.magnite.com/legal/platform-cookie-statement/",
             "wildcardMatch": "0"
         },
         {
@@ -18971,17 +18927,6 @@
             "wildcardMatch": "0"
         },
         {
-            "id": "ddbb67b2-33f2-4844-ae27-19e02b20c0e8",
-            "category": "Marketing",
-            "cookie": "pid",
-            "domain": "xplosion.de",
-            "description": "This cookie is used by Xplosion/emetriq. Used to analyze the behavior of visitors to the website and derive settings. These allow for interest-based promotional content on third party websites.",
-            "retentionPeriod": "1 year",
-            "dataController": "Emetric",
-            "privacyLink": "https://www.emetriq.com/datenschutz/",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "faed0348-d26e-44c1-b482-85c0efe3792a",
             "category": "Marketing",
             "cookie": "ep",
@@ -18990,17 +18935,6 @@
             "retentionPeriod": "1 year",
             "dataController": "Emetric",
             "privacyLink": "https://www.emetriq.com/datenschutz/",
-            "wildcardMatch": "0"
-        },
-        {
-            "id": "72ccbe92-6c9b-4441-8b3e-2ec84120b80d",
-            "category": "Marketing",
-            "cookie": "pid",
-            "domain": ".smartadserver.com",
-            "description": "This cookie is used by Xplosion/emetriq. Used to analyze the behavior of visitors to the website and derive settings. These allow for interest-based promotional content on third party websites.",
-            "retentionPeriod": "13 months",
-            "dataController": "Equativ.com",
-            "privacyLink": "https://equativ.com/end-users-privacy-policy/",
             "wildcardMatch": "0"
         }
     ],
@@ -35119,17 +35053,6 @@
             "wildcardMatch": "0"
         },
         {
-            "id": "fba28545-7582-4809-94c6-738f237868e4",
-            "category": "Functional",
-            "cookie": "LANG",
-            "domain": "tinypass.com",
-            "description": "This cookie saves the selected locale",
-            "retentionPeriod": "1500 days",
-            "dataController": "Piano",
-            "privacyLink": "https://piano.io/privacy-policy/",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "98e37b00-db14-4d43-97dd-536faf0afca4",
             "category": "Functional",
             "cookie": "LANG_CHANGED",
@@ -39867,17 +39790,6 @@
             "wildcardMatch": "1"
         },
         {
-            "id": "63132c86-f1b6-4c12-b0a8-d1aa197158b5",
-            "category": "Functional",
-            "cookie": "oid",
-            "domain": "salesforce.com",
-            "description": "Used to redirect a user to the correct Salesforce org and assist the user for the next login.",
-            "retentionPeriod": "2 years",
-            "dataController": "Salesforce",
-            "privacyLink": "https://www.salesforce.com/company/privacy/",
-            "wildcardMatch": "0"
-        },
-        {
             "id": "9ac305e4-6765-47cd-80bf-478fbdd0b9cc",
             "category": "Functional",
             "cookie": "CookieConsentPolicy",
@@ -44006,17 +43918,6 @@
         }
     ],
     "Springserve": [
-        {
-            "id": "730f2148-258f-4b10-af8d-a6c252673b11",
-            "category": "Marketing",
-            "cookie": "ssid",
-            "domain": ".springserve.com",
-            "description": "This cookie is associated with SpringServe. It is used for serving video ads.",
-            "retentionPeriod": "365 days",
-            "dataController": "Magnite",
-            "privacyLink": "https://www.magnite.com/legal/platform-cookie-policy/",
-            "wildcardMatch": "0"
-        },
         {
             "id": "cda734ff-dfe7-4301-8e3a-5d2954ac8800",
             "category": "Marketing",
