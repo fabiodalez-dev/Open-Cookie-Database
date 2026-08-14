@@ -1,5 +1,8 @@
 import pandas as pd
+import sys
+import unicodedata
 import uuid
+
 
 def validate_uuid(uuid_string):
     try:
@@ -8,17 +11,39 @@ def validate_uuid(uuid_string):
         return False
     return True
 
+
+def normalize_cookie_name(name):
+    """Normalize names exactly as case-insensitive database consumers do."""
+    normalized = unicodedata.normalize('NFKC', str(name).strip())
+    normalized = ''.join(
+        character
+        for character in normalized
+        if unicodedata.category(character) not in {'Cf', 'Zl', 'Zp'}
+    )
+    return normalized.casefold()
+
+
 def validate_csv(file_path):
     df = pd.read_csv(file_path, sep=',', skipinitialspace=True)
     columns = ['ID', 'Platform', 'Category', 'Cookie / Data Key name', 'Domain', 'Description', 'Retention period', 'Data Controller', 'User Privacy & GDPR Rights Portals', 'Wildcard match']
-    valid_categories = ['Functional','Personalization','Analytics', 'Marketing', 'Security']
+    # The historical dataset also uses Necessary and Uncategorized. Keep the
+    # validator aligned with the categories already accepted by the database.
+    valid_categories = [
+        'Functional',
+        'Necessary',
+        'Personalization',
+        'Analytics',
+        'Marketing',
+        'Security',
+        'Uncategorized',
+    ]
     
     # Check if CSV has valid structure and contains necessary columns
     if not set(columns).issubset(df.columns):
         print("::error file=open-cookie-database.csv,line=1,col=1::CSV structure is not valid.")
         return False
 
- # Check if 'Category' column contains only valid values
+    # Check if 'Category' column contains only valid values
     if not df['Category'].isin(valid_categories).all():
         print("::error file=open-cookie-database.csv,line=1,col=1::'Category' column must contain only these values: " + ', '.join(valid_categories))
         invalid_categories = df[~df['Category'].isin(valid_categories)]['Category']
@@ -35,13 +60,18 @@ def validate_csv(file_path):
         print(non_unique_ids)
         return False
 
-    # Check if 'Cookie / Data Key name' column contains unique values
-    if not df['Cookie / Data Key name'].is_unique:
-        non_unique_cookies = df[df.duplicated('Cookie / Data Key name', keep=False)]['Cookie / Data Key name']
+    # Cookie lookups are case-insensitive. Normalize Unicode formatting
+    # characters as well so visually identical names cannot bypass this check.
+    normalized_names = df['Cookie / Data Key name'].apply(normalize_cookie_name)
+    if not normalized_names.is_unique:
+        duplicate_mask = normalized_names.duplicated(keep=False)
+        non_unique_cookies = df.loc[duplicate_mask, 'Cookie / Data Key name']
         non_unique_cookies_str = ', '.join(non_unique_cookies)
-        print(f"::warning file=open-cookie-database.csv,line=1,col=1::'Cookie / Data Key name' contains non-unique values: {non_unique_cookies_str}. Please check for duplicates.")
+        print(f"::error file=open-cookie-database.csv,line=1,col=1::'Cookie / Data Key name' contains normalized duplicates: {non_unique_cookies_str}.")
+        return False
 
     print("CSV file is valid.")
     return True
 
-validate_csv('open-cookie-database.csv')
+if __name__ == '__main__':
+    sys.exit(0 if validate_csv('open-cookie-database.csv') else 1)
