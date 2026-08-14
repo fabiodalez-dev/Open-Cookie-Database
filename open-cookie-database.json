@@ -27726,7 +27726,7 @@
         {
             "id": "37ef0bb9-7cf9-48f8-aa88-0b79f3716dd0",
             "category": "Functional",
-            "cookie": "logglytrackings­ession",
+            "cookie": "logglytrackingsession",
             "domain": "",
             "description": "Used by Loggly for performance and error tracking.",
             "retentionPeriod": "session",
