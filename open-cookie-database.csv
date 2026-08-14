@@ -6689,3 +6689,47 @@ cc9fdcdb-dced-409c-b5fe-8ef664f6bebb,Extendify,Uncategorized,extendify,,Extendif
 06121760-01f1-444a-afa3-b27551278087,Google Adsense,Uncategorized,auto-draft-23,,Cookie from the Google Adsense platform,at least one session,Google Adsense,,0
 8fc9f1dc-34b8-46c4-820f-4d0cfd49aa95,Spectra Gutenberg Blocks,Uncategorized,aosremoveclassestimeoutcode-2,,Cookie from the Spectra Gutenberg Blocks platform,,Spectra Gutenberg Blocks,,0
 634f370c-8e6b-483f-8137-40201f2122f1,Spectra Gutenberg Blocks,Uncategorized,aosremoveclassestimeoutcode,,Cookie from the Spectra Gutenberg Blocks platform,,Spectra Gutenberg Blocks,,0
+47686e93-18a8-4a28-af7e-0f33617ba46f,QookieQloud,Functional,__cmpQQ_CookieConsent,,Stores the user's cookie consent state for the current domain,Local Storage,Qodli AB,https://qookieqloud.com/privacy-policy,0
+4efff242-8a7b-4426-ad6e-8aabb3ba5b6d,Awin,Marketing,lantern,,This cookie is used by the affiliate marketing platform AWIN to store a reference to a visit to attribute a sale to marketing channels.,Awin,29 days,https://www.awin.com/gb/privacy,0
+0cd3a546-59b5-4565-a181-dc0d5f0c2d17,Awin,Marketing,AwinChannelCookie,,Tracks sales for bookings made via links provided by Awin.,Awin,29 days,https://www.awin.com/gb/privacy,0
+c7d8e9f0-0001-4567-890a-000000000001,WordPress,Functional,wp_lang,,Stores the user's language preference in WordPress admin panel.,Session,WordPress,https://wordpress.org/about/privacy/,0
+c7d8e9f0-0002-4567-890a-000000000002,Ruby on Rails,Functional,_rails_session,,Session management cookie for Ruby on Rails applications. Contains encrypted session data.,Session,Ruby on Rails,https://guides.rubyonrails.org/security.html,0
+c7d8e9f0-0003-4567-890a-000000000003,Devise (Ruby on Rails),Functional,remember_user_token,,Remember me functionality for Devise authentication gem in Rails applications.,2 weeks,Ruby on Rails,https://github.com/heartcombo/devise,0
+c7d8e9f0-0004-4567-890a-000000000004,NextAuth.js,Functional,next-auth.,,Authentication session cookies for NextAuth.js (Auth.js) - popular authentication library for Next.js.,Session to 30 days,NextAuth.js,https://authjs.dev/,1
+c7d8e9f0-0005-4567-890a-000000000005,Next.js,Functional,__next_,,Next.js framework cookies for routing and user preferences.,Varies,Vercel,https://nextjs.org/docs,1
+c7d8e9f0-0006-4567-890a-000000000006,Supabase,Functional,sb-,,Supabase authentication and session management cookies.,1 week to 1 year,Supabase,https://supabase.com/privacy,1
+c7d8e9f0-0007-4567-890a-000000000007,Clerk,Functional,clerk_,,Clerk authentication service session and user management cookies.,Varies,Clerk,https://clerk.com/privacy,1
+c7d8e9f0-0008-4567-890a-000000000008,Crisp,Functional,crisp-client/,,Crisp live chat widget session and preferences cookies.,6 months,Crisp IM SAS,https://crisp.chat/en/privacy/,1
+c7d8e9f0-0009-4567-890a-000000000009,Drift,Functional,drift_,,Drift conversational marketing platform chat widget cookies.,2 years,Drift.com,https://www.drift.com/privacy-policy/,1
+c7d8e9f0-0011-4567-890a-000000000011,LiveChat,Functional,lc_,,LiveChat customer service platform widget session and visitor tracking cookies.,3 years,LiveChat Inc,https://www.livechat.com/legal/privacy-policy/,1
+c7d8e9f0-0012-4567-890a-000000000012,Plausible Analytics,Analytics,plausible_,,Privacy-friendly web analytics. Does not use cookies by default but may store preferences if enabled.,Varies,Plausible Insights OÜ,https://plausible.io/privacy,1
+c7d8e9f0-0013-4567-890a-000000000013,Fathom Analytics,Analytics,_fathom,,Privacy-focused simple website analytics with minimal data collection.,Varies,Conva Ventures Inc,https://usefathom.com/privacy,1
+c7d8e9f0-0014-4567-890a-000000000014,Umami,Analytics,umami.,,Open-source privacy-friendly web analytics alternative.,Varies,Website operator,https://umami.is/docs/about,1
+c7d8e9f0-0015-4567-890a-000000000015,Vercel,Functional,_vercel_,,Vercel platform cookies for deployment previews and analytics.,Varies,Vercel Inc,https://vercel.com/legal/privacy-policy,1
+8ff94b55-a426-49e9-a0be-d3776b02629a,Analytics Insights for WordPress,Analytics,aiwp_wg_default_metric,First Party,Used by Analytics Insights for WordPress (GAinWP) plugin to store the default metric preference for the admin dashboard analytics widget.,Session,Analytics Insights for WordPress,,0
+b052f03c-aa25-473b-be0e-bf98f68db969,Analytics Insights for WordPress,Analytics,aiwp_wg_default_dimension,First Party,Used by Analytics Insights for WordPress (GAinWP) plugin to store the default dimension preference for the admin dashboard analytics widget.,Session,Analytics Insights for WordPress,,0
+7416fdd5-4062-4587-bf5a-ffb5c27b41a3,Analytics Insights for WordPress,Analytics,aiwp_wg_default_swmetric,First Party,Used by Analytics Insights for WordPress (GAinWP) plugin to store the secondary widget metric preference.,Session,Analytics Insights for WordPress,,0
+9ca2f638-321f-4230-8956-da6d33eb338b,PixelYourSite,Marketing,pys_advanced_form_data,First Party,"Used by PixelYourSite plugin to track form interactions for conversion pixels (Meta Pixel, Google Ads). Stores form field data temporarily for pixel event firing.",Session,PixelYourSite,https://www.pixelyoursite.com/privacy-policy,0
+cdfe4474-c830-4067-b0fb-852283507a7c,Unknown,Functional,intercom-state-*,,Data storage used by the associated service.,,Unknown,,1
+a6d723d2-491c-4487-a5d1-45b3c40d148b,Booking.com,Functional,btest,,Local storage used by Booking.com.,persistent,Booking.com,,0
+63f8a340-7fa8-4cea-ba1d-c1fafe43c3c4,Booking.com,Functional,has_preloaded,,Used by Booking.com to estimate bandwidth.,1 year,Booking.com,,0
+6d18ddfe-ae60-404b-89ec-8745bd2206bf,Booking.com,Functional,lastSeen,,Used by Booking.com to store the visitor's last visit.,session,Booking.com,,0
+24f89fbb-c651-41ba-b8c7-8a20e9ab1f91,Complianz,Functional,cmplz_consenttype,,Used by Complianz to determine which cookie banner to show.,persistent,Complianz,,0
+544ba0a2-87d8-478c-8071-5be1b45d6b5a,Complianz,Functional,cmplz_elementor_manage_consent_banner_id,,Used by Complianz to store cookie consent preferences.,1 year,Complianz,,0
+445e64aa-2a0f-4cf0-a774-6634f1699852,Complianz,Functional,cmplz_rt_consented_services,,Used by Complianz to store cookie consent preferences.,1 year,Complianz,,0
+d00572d3-48ce-40bc-9f3a-4680e4f9e08b,Complianz,Functional,cmplz_rt_banner-status,,Used by Complianz to store if the cookie banner has been dismissed.,1 year,Complianz,,0
+7a9be855-e1cf-4ccf-a96a-f7f8bca77cc0,Complianz,Functional,cmplz_rt_saved_categories,,Used by Complianz to store cookie consent preferences.,1 year,Complianz,,0
+7c3876bd-00dc-4e86-b571-966ccc6bdf6c,Complianz,Functional,cmplz_rt_saved_services,,Used by Complianz to store cookie consent preferences.,1 year,Complianz,,0
+f410819a-a0dd-4718-a10e-affe4b63aa83,Lucky Orange,Marketing,lo-visitor,,Used by Lucky Orange to store number of visits.,various,Lucky Orange,,0
+653930aa-3371-42a8-9b3e-d3d801725588,Lucky Orange,Functional,lo-messenger,,Used by Lucky Orange to provide a responsive website.,various,Lucky Orange,,0
+b8b24271-3310-44d5-96ad-430a6fabdcfc,Lucky Orange,Functional,lo-opt-out,,Used by Lucky Orange to store cookie consent preferences.,2 years,Lucky Orange,,0
+948aee23-2798-4ceb-a7d3-7f0400758fe5,Podsights,Analytics,__pdst,,Used by Podsights to store and track interaction.,persistent,Podsights,,0
+896d8d4b-0eb9-426e-9d29-ea8acd3b9705,MailPoet,Marketing,mailpoet_subscriber,,Used by MailPoet to provide its subscription service.,persistent,MailPoet,,0
+5e56720f-1089-44f7-a6f2-8e5d3e1f3973,WooCommerce Pixel Manager,Marketing,wpmReferrer,,Used by WooCommerce Pixel Manager to store referring website.,session,WooCommerce Pixel Manager,,0
+258be233-38a0-426a-8930-92f1188e3700,Elementor,Functional,e_document/global,,Used by Elementor to provide admin functions.,various,Elementor,,0
+285b766d-0910-42f3-949d-00e20c783886,WooCommerce Pixel Manager,Analytics,wpmFirstPageLoad,,Used by WooCommerce Pixel Manager to store first visit to the site.,session,WooCommerce Pixel Manager,,0
+07bbcb44-8de0-42e9-b76b-632d6dfcee92,WooCommerce Pixel Manager,Marketing,wpmMiniCartActive,,Used by WooCommerce Pixel Manager to store configuration.,session,WooCommerce Pixel Manager,,0
+d23e273e-7e24-4986-8db8-f347c967e703,Unknown,Functional,id_page:::*,,Data storage used by the associated service.,,Unknown,,1
+d22b350f-8ecb-47d1-8abc-5803e583f97b,Unknown,Functional,ContinueReview,,Data storage used by the associated service.,,Unknown,,0
+8cdb22cb-a5a3-4b8a-a01f-194d959b389f,Unknown,Functional,popup_form_dismissed_*,,Data storage used by the associated service.,,Unknown,,1
+4a0b1f15-43fe-4035-a50f-6b8d5de73f20,"Altervista, Google various services",Analytics,gtag_ga_R5PDW0TTSP,,Used by Altervista and Google services to store a unique user ID.,2 years,"Altervista, Google various services",,0
